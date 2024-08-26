@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "spcore:fusion_station_frame"
+  },
+  "base": {
+    "item": "minecraft:repeater"
+  },
+  "addition": {
+    "item": "spcore:smithing_hammer"
+  },
+  "result": {
+    "id": "spcore:fusion_station"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "flint_blade",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Flint Blade",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 2.0,
+    "attackSpeed": 3.0,
+    "enchantability": 4,
+    "damageVsEntity": 1.5,
+    "usageCount": 18,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

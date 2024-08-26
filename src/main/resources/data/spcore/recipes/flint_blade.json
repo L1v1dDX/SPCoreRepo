@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "spcore:rock"
+    },
+    {
+      "item": "spcore:rock"
+    }
+  ],
+  "result": {
+    "id": "spcore:flint_blade",
+    "count": 1
+  }
+}

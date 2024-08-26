@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "spcore:coal_shard"
+    },
+    "b": {
+      "item": "spcore:coal_dust"
+    }
+  },
+  "result": {
+    "id": "minecraft:coal",
+    "count": 2
+  }
+}

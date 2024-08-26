@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "spcore:fiber_rope"
+    },
+    "b": {
+      "item": "minecraft:flint"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "item": "spcore:plant_fibers"
+    }
+  },
+  "result": {
+    "id": "spcore:primitive_tool",
+    "count": 1
+  }
+}

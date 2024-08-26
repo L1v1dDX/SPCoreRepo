@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "spcore:primitive_tool",
+    "spcore:flint_blade",
+    "spcore:smithing_hammer"
+  ]
+}

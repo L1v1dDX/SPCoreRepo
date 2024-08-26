@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.COBBLESTONE"
+    },
+    "name": "craft_cobble_modded",
+    "namespace": "mod"
+  }
+}

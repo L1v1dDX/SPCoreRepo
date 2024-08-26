@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "spcore:block/wrapped_copper"
+    }
+  }
+}

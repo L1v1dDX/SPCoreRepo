@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "minecraft:block/terracotta",
+    "top": "minecraft:block/terracotta",
+    "side": "minecraft:block/terracotta",
+    "overlay": "spcore:block/terracotta_wrapped_copper",
+    "particle": "minecraft:block/terracotta"
+  },
+  "render_type": "cutout_mipped"
+}

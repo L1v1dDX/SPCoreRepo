@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 4.0,
+    "cookingTime": 600,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:WrappedCopper"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:TerracottaWrappedCopper"
+    },
+    "name": "campfire_copper_nugget",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "primitive_tool",
+    "customModelName": "primitivetool:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Primitive Tool",
+    "specialInformation": {
+      "fixedValue": [
+        "Can chop Wood."
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 1.5,
+    "attackSpeed": 2.1,
+    "enchantability": 2,
+    "damageVsEntity": 3.0,
+    "usageCount": 46,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": "Items.RAW_COPPER"
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WrappedCopper"
+    },
+    "name": "wrapped_copper",
+    "namespace": "mod"
+  }
+}

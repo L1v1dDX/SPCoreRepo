@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spcore:block/fusionstation_bottom",
+    "up": "spcore:block/fusionstation_top",
+    "north": "spcore:block/fusionstation_front",
+    "east": "spcore:block/fusionstation_side",
+    "south": "spcore:block/fusionstation_side",
+    "west": "spcore:block/fusionstation_side",
+    "particle": "spcore:block/fusionstation_bottom"
+  },
+  "render_type": "solid"
+}

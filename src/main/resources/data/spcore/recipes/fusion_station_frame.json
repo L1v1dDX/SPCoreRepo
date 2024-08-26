@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_stone"
+    },
+    "b": {
+      "item": "spcore:copper_gear"
+    },
+    "c": {
+      "item": "minecraft:furnace"
+    },
+    "d": {
+      "item": "spcore:iron_gear"
+    },
+    "e": {
+      "item": "minecraft:iron_ingot"
+    },
+    "f": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "id": "spcore:fusion_station_frame",
+    "count": 1
+  }
+}

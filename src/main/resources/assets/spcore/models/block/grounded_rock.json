@@ -1,0 +1,9 @@
+{
+  "parent": "spcore:custom/groundedrock",
+  "textures": {
+    "all": "spcore:block/ground_rock",
+    "particle": "minecraft:block/stone",
+    "0": "spcore:block/groundedrocktextur"
+  },
+  "render_type": "solid"
+}

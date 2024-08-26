@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "minecraft:block/clay",
+    "top": "minecraft:block/clay",
+    "side": "minecraft:block/clay",
+    "overlay": "spcore:block/wrapped_copper",
+    "particle": "minecraft:block/clay"
+  },
+  "render_type": "cutout_mipped"
+}

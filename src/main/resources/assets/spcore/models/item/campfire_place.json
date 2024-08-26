@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "spcore:item/campfire_base"
+  },
+  "render_type": "translucent"
+}

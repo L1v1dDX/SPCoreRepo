@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "a "
+  ],
+  "key": {
+    "a": {
+      "item": "spcore:plant_fibers"
+    }
+  },
+  "result": {
+    "id": "spcore:fiber_rope",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "log": "campfire_log"
+      },
+      "name": "default"
+    }
+  }
+}

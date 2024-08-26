@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "spcore:block/verterium_ore",
+    "particle": "spcore:block/verterium_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 4,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "spcore:wrapped_copper"
+  },
+  "result": {
+    "id": "spcore:terracotta_wrapped_copper"
+  }
+}

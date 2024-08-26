@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "spcore:grounded_rock",
+    "spcore:terracotta_wrapped_copper",
+    "spcore:fusion_station_frame",
+    "spcore:fusion_station",
+    "spcore:enchanted_block_of_verterium",
+    "spcore:block_of_verterium",
+    "spcore:verterium_ore"
+  ]
+}

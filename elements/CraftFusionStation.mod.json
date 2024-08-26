@@ -1,0 +1,28 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.REPEATER"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:SmithingHammer"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:FusionStationFrame"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:FusionStation"
+    },
+    "name": "fusion_station",
+    "namespace": "mod"
+  }
+}

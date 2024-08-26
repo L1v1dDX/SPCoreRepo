@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "spcore:iron_knife",
+    "spcore:golden_knife",
+    "spcore:flint_blade"
+  ]
+}

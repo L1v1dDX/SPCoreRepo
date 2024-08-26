@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "spcore:blocks/fusion_station_frame",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spcore:fusion_station_frame"
+        }
+      ]
+    }
+  ]
+}

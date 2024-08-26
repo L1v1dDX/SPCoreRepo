@@ -1,0 +1,9 @@
+{
+  "parent": "spcore:custom/campfire_off",
+  "textures": {
+    "all": "spcore:block/campfire_log",
+    "particle": "spcore:block/campfire_log",
+    "log": "spcore:block/campfire_log"
+  },
+  "render_type": "solid"
+}

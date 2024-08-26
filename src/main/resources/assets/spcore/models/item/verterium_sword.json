@@ -1,0 +1,7 @@
+{
+  "parent": "spcore:custom/verterium_sword",
+  "textures": {
+    "0": "spcore:block/verteriumswordtexture",
+    "particle": "spcore:item/verterium_sword"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "spcore:iron_gear",
+    "spcore:copper_gear",
+    "spcore:golden_gear"
+  ]
+}

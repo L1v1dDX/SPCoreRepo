@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "spcore:blocks/block_of_verterium",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spcore:block_of_verterium"
+        }
+      ]
+    }
+  ]
+}

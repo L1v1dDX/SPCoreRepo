@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "spcore:block/grounded_rock"
+    }
+  }
+}

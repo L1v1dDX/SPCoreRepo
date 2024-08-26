@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "spcore:block/campfire_place"
+    }
+  }
+}

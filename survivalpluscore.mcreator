@@ -1,0 +1,1904 @@
+{
+  "mod_elements": [
+    {
+      "name": "VerteriumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verterium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/item/verterium_ore.json",
+          "src/main/resources/assets/spcore/blockstates/verterium_ore.json",
+          "src/main/java/net/mcreator/survivalpluscore/block/VerteriumOreBlock.java",
+          "src/main/resources/data/spcore/worldgen/configured_feature/verterium_ore.json",
+          "src/main/resources/data/spcore/worldgen/placed_feature/verterium_ore.json",
+          "src/main/resources/data/spcore/neoforge/biome_modifier/verterium_ore_biome_modifier.json",
+          "src/main/resources/assets/spcore/models/block/verterium_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "VerteriumCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verterium_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/item/verterium_crystal.json",
+          "src/main/java/net/mcreator/survivalpluscore/item/VerteriumCrystalItem.java"
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "VerteriumOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verterium_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/loot_tables/blocks/verterium_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "VerteriumOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verterium_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/VerteriumOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "BlockOfVerterium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_verterium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/item/block_of_verterium.json",
+          "src/main/java/net/mcreator/survivalpluscore/block/BlockOfVerteriumBlock.java",
+          "src/main/resources/assets/spcore/blockstates/block_of_verterium.json",
+          "src/main/resources/data/spcore/loot_tables/blocks/block_of_verterium.json",
+          "src/main/resources/assets/spcore/models/block/block_of_verterium.json"
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "EnchantedBlockOfVerterium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_block_of_verterium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/blockstates/enchanted_block_of_verterium.json",
+          "src/main/resources/assets/spcore/models/block/enchanted_block_of_verterium.json",
+          "src/main/java/net/mcreator/survivalpluscore/block/EnchantedBlockOfVerteriumBlock.java",
+          "src/main/resources/assets/spcore/models/item/enchanted_block_of_verterium.json"
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "BlockOfVerteriumOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_verterium_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/BlockOfVerteriumOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "EnchantedBlockOfVerteriumBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_block_of_verterium_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/EnchantedBlockOfVerteriumBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "CraftBlockOfVerterium",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_block_of_verterium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/block_of_verterium.json"
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "VerteriumSwordItemIsCraftedsmelted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verterium_sword_item_is_craftedsmelted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/VerteriumSwordItemIsCraftedsmeltedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Weapons/Verterium Sword"
+    },
+    {
+      "name": "VerteriumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verterium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/item/verterium_sword.json",
+          "src/main/java/net/mcreator/survivalpluscore/item/VerteriumSwordItem.java"
+        ]
+      },
+      "path": "~/Weapons/Verterium Sword"
+    },
+    {
+      "name": "SmithingHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/SmithingHammerItem.java",
+          "src/main/resources/assets/spcore/models/item/smithing_hammer.json"
+        ]
+      },
+      "path": "~/Misc./Smithing Hammer"
+    },
+    {
+      "name": "CraftSmithingHammer",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_smithing_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/smithing_hammer.json"
+        ]
+      },
+      "path": "~/Misc./Smithing Hammer"
+    },
+    {
+      "name": "VerteriumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verterium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/item/verterium_ingot.json",
+          "src/main/java/net/mcreator/survivalpluscore/item/VerteriumIngotItem.java"
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "CraftVerteriumIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_verterium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/verterium_ingot.json"
+        ]
+      },
+      "path": "~/Blocks/Ores/Verterium"
+    },
+    {
+      "name": "CraftVerteriumSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_verterium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/verterium_sword.json"
+        ]
+      },
+      "path": "~/Weapons/Verterium Sword"
+    },
+    {
+      "name": "FusionStationGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_station_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/world/inventory/FusionStationGUIMenu.java",
+          "src/main/java/net/mcreator/survivalpluscore/client/gui/FusionStationGUIScreen.java"
+        ]
+      },
+      "path": "~/Blocks/Stations/Fusion Station"
+    },
+    {
+      "name": "FusionStation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_station",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/block/FusionStationBlock.java",
+          "src/main/java/net/mcreator/survivalpluscore/block/entity/FusionStationBlockEntity.java",
+          "src/main/resources/data/spcore/loot_tables/blocks/fusion_station.json",
+          "src/main/resources/assets/spcore/models/item/fusion_station.json",
+          "src/main/resources/assets/spcore/blockstates/fusion_station.json",
+          "src/main/resources/assets/spcore/models/block/fusion_station.json"
+        ]
+      },
+      "path": "~/Blocks/Stations/Fusion Station"
+    },
+    {
+      "name": "IronGear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_gear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/IronGearItem.java",
+          "src/main/resources/assets/spcore/models/item/iron_gear.json"
+        ]
+      },
+      "path": "~/Misc./Gears"
+    },
+    {
+      "name": "GearFrame",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gear_frame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/GearFrameItem.java",
+          "src/main/resources/assets/spcore/models/item/gear_frame.json"
+        ]
+      },
+      "path": "~/Misc./Gears"
+    },
+    {
+      "name": "IronKnife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/item/iron_knife.json",
+          "src/main/java/net/mcreator/survivalpluscore/item/IronKnifeItem.java"
+        ]
+      },
+      "path": "~/Tools/Knives"
+    },
+    {
+      "name": "GoldenKnife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/item/golden_knife.json",
+          "src/main/java/net/mcreator/survivalpluscore/item/GoldenKnifeItem.java"
+        ]
+      },
+      "path": "~/Tools/Knives"
+    },
+    {
+      "name": "CraftIronKnife",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_iron_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/iron_knife.json"
+        ]
+      },
+      "path": "~/Tools/Knives"
+    },
+    {
+      "name": "CraftGoldenKnife",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_golden_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/golden_knife.json"
+        ]
+      },
+      "path": "~/Tools/Knives"
+    },
+    {
+      "name": "CraftIronGear",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_iron_gear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/iron_gear.json"
+        ]
+      },
+      "path": "~/Misc./Gears"
+    },
+    {
+      "name": "CraftGearFrame",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_gear_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/gear_frame.json"
+        ]
+      },
+      "path": "~/Misc./Gears"
+    },
+    {
+      "name": "CopperGear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_gear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/CopperGearItem.java",
+          "src/main/resources/assets/spcore/models/item/copper_gear.json"
+        ]
+      },
+      "path": "~/Misc./Gears"
+    },
+    {
+      "name": "CraftCopperGear",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_copper_gear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/copper_gear.json"
+        ]
+      },
+      "path": "~/Misc./Gears"
+    },
+    {
+      "name": "CopperNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/item/copper_nugget.json",
+          "src/main/java/net/mcreator/survivalpluscore/item/CopperNuggetItem.java"
+        ]
+      },
+      "path": "~/Misc./Nuggets"
+    },
+    {
+      "name": "CraftCopperNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_copper_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/copper_nugget.json"
+        ]
+      },
+      "path": "~/Misc./Nuggets"
+    },
+    {
+      "name": "UncraftCopperNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncraft_copper_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/copper_ingot.json"
+        ]
+      },
+      "path": "~/Misc./Nuggets"
+    },
+    {
+      "name": "CopperDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/CopperDustItem.java",
+          "src/main/resources/assets/spcore/models/item/copper_dust.json"
+        ]
+      },
+      "path": "~/Misc./Nuggets"
+    },
+    {
+      "name": "CopperNuggetPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nugget_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/CopperNuggetPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc./Nuggets"
+    },
+    {
+      "name": "GoldenGear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_gear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/GoldenGearItem.java",
+          "src/main/resources/assets/spcore/models/item/golden_gear.json"
+        ]
+      },
+      "path": "~/Misc./Gears"
+    },
+    {
+      "name": "CraftGoldenGear",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_golden_gear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/golden_gear.json"
+        ]
+      },
+      "path": "~/Misc./Gears"
+    },
+    {
+      "name": "FusionStationFrame",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_station_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/block/fusion_station_frame.json",
+          "src/main/resources/assets/spcore/blockstates/fusion_station_frame.json",
+          "src/main/resources/assets/spcore/models/item/fusion_station_frame.json",
+          "src/main/java/net/mcreator/survivalpluscore/block/FusionStationFrameBlock.java",
+          "src/main/resources/data/spcore/loot_tables/blocks/fusion_station_frame.json"
+        ]
+      },
+      "path": "~/Blocks/Functional/Fusion Station Frame"
+    },
+    {
+      "name": "CraftFusionStationFrame",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_fusion_station_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/fusion_station_frame.json"
+        ]
+      },
+      "path": "~/Blocks/Functional/Fusion Station Frame"
+    },
+    {
+      "name": "CraftFusionStation",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_fusion_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/fusion_station.json"
+        ]
+      },
+      "path": "~/Blocks/Stations/Fusion Station"
+    },
+    {
+      "name": "PunchStoneGetRock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punch_stone_get_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/PunchStoneGetRockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Override Scripts/Punch Stone Get Rock"
+    },
+    {
+      "name": "PSGRLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psgr_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/loot_tables/blocks/psgr_loot.json"
+        ]
+      },
+      "path": "~/Override Scripts/Punch Stone Get Rock"
+    },
+    {
+      "name": "Rock",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/item/rock.json",
+          "src/main/java/net/mcreator/survivalpluscore/item/RockItem.java"
+        ]
+      },
+      "path": "~/Misc./Custom Drops/Punch Stone Get Rock"
+    },
+    {
+      "name": "CutGrass",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/CutGrassProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Override Scripts/Cut Grass"
+    },
+    {
+      "name": "PlantFibersPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plant_fibers_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/PlantFibersPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc./Custom Drops/Cut Grass"
+    },
+    {
+      "name": "PlantFibers",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plant_fibers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/PlantFibersItem.java",
+          "src/main/resources/assets/spcore/models/item/plant_fibers.json"
+        ]
+      },
+      "path": "~/Misc./Custom Drops/Cut Grass"
+    },
+    {
+      "name": "FlintBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/FlintBladeItem.java",
+          "src/main/resources/assets/spcore/models/item/flint_blade.json"
+        ]
+      },
+      "path": "~/Tools/Flint Blade"
+    },
+    {
+      "name": "CraftFlintBlade",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_flint_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/flint_blade.json"
+        ]
+      },
+      "path": "~/Tools/Flint Blade"
+    },
+    {
+      "name": "CutGrassLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_grass_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/loot_tables/blocks/cut_grass_loot.json"
+        ]
+      },
+      "path": "~/Override Scripts/Cut Grass"
+    },
+    {
+      "name": "BWND",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bwnd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/BWNDProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Override Scripts/Break Wood Need Tool"
+    },
+    {
+      "name": "FiberRope",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fiber_rope",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/FiberRopeItem.java",
+          "src/main/resources/assets/spcore/models/item/fiber_rope.json"
+        ]
+      },
+      "path": "~/Misc./Custom Drops/Cut Grass"
+    },
+    {
+      "name": "CraftFiberRope",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_fiber_rope",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/fiber_rope.json"
+        ]
+      },
+      "path": "~/Misc./Custom Drops/Cut Grass"
+    },
+    {
+      "name": "PrimitiveTool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primitive_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/PrimitiveToolItem.java",
+          "src/main/resources/assets/spcore/models/item/primitive_tool.json"
+        ]
+      },
+      "path": "~/Tools/Early Survival/Primitive Tool"
+    },
+    {
+      "name": "CraftPrimitiveTool",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_primitive_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/primitive_tool.json"
+        ]
+      },
+      "path": "~/Tools/Early Survival/Primitive Tool"
+    },
+    {
+      "name": "CraftCobbleModded",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cobble_modded",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/craft_cobble_modded.json"
+        ]
+      },
+      "path": "~/Misc./Custom Drops/Punch Stone Get Rock"
+    },
+    {
+      "name": "CraftOverrideOakPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_override_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/oak_planks.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Logs to Oak"
+    },
+    {
+      "name": "CraftOverrideSprucePlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_override_spruce_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/spruce_planks.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Logs to Oak"
+    },
+    {
+      "name": "CraftOverrideBirchPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_override_birch_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/birch_planks.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Logs to Oak"
+    },
+    {
+      "name": "CraftOverrideJunglePlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_override_jungle_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/jungle_planks.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Logs to Oak"
+    },
+    {
+      "name": "CraftOverrideAcaciaPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_override_acacia_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/acacia_planks.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Logs to Oak"
+    },
+    {
+      "name": "CraftOverrideDarkOakPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_override_dark_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/dark_oak_planks.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Logs to Oak"
+    },
+    {
+      "name": "CraftOverrideCrimsonPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_override_crimson_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/crimson_planks.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Logs to Oak"
+    },
+    {
+      "name": "CraftOverrideWarpedPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_override_warped_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/warped_planks.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Logs to Oak"
+    },
+    {
+      "name": "CraftOverrideMangrovePlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_override_mangrove_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/mangrove_planks.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Logs to Oak"
+    },
+    {
+      "name": "WoodenShaft",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_shaft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/WoodenShaftItem.java",
+          "src/main/resources/assets/spcore/models/item/wooden_shaft.json"
+        ]
+      },
+      "path": "~/Misc./Early Survival/Wooden Shaft"
+    },
+    {
+      "name": "CraftWoodenShaft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_wooden_shaft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/wooden_shaft.json"
+        ]
+      },
+      "path": "~/Misc./Early Survival/Wooden Shaft"
+    },
+    {
+      "name": "WrappedCopper",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrapped_copper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/block/WrappedCopperBlock.java",
+          "src/main/resources/assets/spcore/models/item/wrapped_copper.json",
+          "src/main/resources/assets/spcore/models/block/wrapped_copper.json",
+          "src/main/resources/assets/spcore/blockstates/wrapped_copper.json"
+        ]
+      },
+      "path": "~/Misc./Early Survival/Wrapped Copper"
+    },
+    {
+      "name": "CraftWrappedCopper",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_wrapped_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/wrapped_copper.json"
+        ]
+      },
+      "path": "~/Misc./Early Survival/Wrapped Copper"
+    },
+    {
+      "name": "CampfireCopperNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_copper_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/campfire_copper_nugget.json"
+        ]
+      },
+      "path": "~/Misc./Early Survival/Wrapped Copper"
+    },
+    {
+      "name": "TerracottaWrappedCopper",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_wrapped_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/block/terracotta_wrapped_copper.json",
+          "src/main/resources/data/spcore/loot_tables/blocks/terracotta_wrapped_copper.json",
+          "src/main/resources/assets/spcore/blockstates/terracotta_wrapped_copper.json",
+          "src/main/resources/assets/spcore/models/item/terracotta_wrapped_copper.json",
+          "src/main/java/net/mcreator/survivalpluscore/block/TerracottaWrappedCopperBlock.java"
+        ]
+      },
+      "path": "~/Misc./Early Survival/Wrapped Copper"
+    },
+    {
+      "name": "TerracottaWrappedCopperLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_wrapped_copper_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/loot_tables/blocks/terracotta_wrapped_copper.json"
+        ]
+      },
+      "path": "~/Misc./Early Survival/Wrapped Copper"
+    },
+    {
+      "name": "TerracottaWrappedCopperBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_wrapped_copper_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/TerracottaWrappedCopperBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc./Early Survival/Wrapped Copper"
+    },
+    {
+      "name": "WrappedCopperLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrapped_copper_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/loot_tables/gameplay/wrapped_copper_loot.json"
+        ]
+      },
+      "path": "~/Misc./Early Survival/Wrapped Copper"
+    },
+    {
+      "name": "WrappedCopperBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrapped_copper_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/WrappedCopperBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc./Early Survival/Wrapped Copper"
+    },
+    {
+      "name": "CampfirePlace",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_place",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/blockstates/campfire_place.json",
+          "src/main/resources/data/spcore/loot_tables/blocks/campfire_place.json",
+          "src/main/resources/assets/spcore/models/block/campfire_place.json",
+          "src/main/resources/assets/spcore/models/item/campfire_place.json",
+          "src/main/java/net/mcreator/survivalpluscore/block/CampfirePlaceBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Functional/Campfire Place"
+    },
+    {
+      "name": "LightCampfirePlace",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_campfire_place",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/LightCampfirePlaceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Functional/Campfire Place"
+    },
+    {
+      "name": "CraftCampfirePlace",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_campfire_place",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/campfire_place.json"
+        ]
+      },
+      "path": "~/Blocks/Functional/Campfire Place"
+    },
+    {
+      "name": "NECLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nec_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/loot_tables/gameplay/nec_loot.json"
+        ]
+      },
+      "path": "~/Override Scripts/No Easy Coal"
+    },
+    {
+      "name": "CoalShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/CoalShardItem.java",
+          "src/main/resources/assets/spcore/models/item/coal_shard.json"
+        ]
+      },
+      "path": "~/Misc./Custom Drops/No Easy Coal"
+    },
+    {
+      "name": "CoalDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/CoalDustItem.java",
+          "src/main/resources/assets/spcore/models/item/coal_dust.json"
+        ]
+      },
+      "path": "~/Misc./Custom Drops/No Easy Coal"
+    },
+    {
+      "name": "CraftCoal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/craft_coal.json"
+        ]
+      },
+      "path": "~/Misc./Custom Drops/No Easy Coal"
+    },
+    {
+      "name": "CraftOverrideTorch",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_override_torch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/torch.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Simple Torches"
+    },
+    {
+      "name": "NECProcess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nec_process",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/NECProcessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Override Scripts/No Easy Coal"
+    },
+    {
+      "name": "GCLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gc_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/loot_tables/gameplay/gc_loot.json"
+        ]
+      },
+      "path": "~/Override Scripts/Get Copper"
+    },
+    {
+      "name": "GetCopperProcess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_copper_process",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/GetCopperProcessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Override Scripts/Get Copper"
+    },
+    {
+      "name": "CraftFurnace",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/furnace.json"
+        ]
+      },
+      "path": "~/Vanilla Crafting Overrides/Advanced Furnace"
+    },
+    {
+      "name": "CopperPickaxeHead",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/item/CopperPickaxeHeadItem.java",
+          "src/main/resources/assets/spcore/models/item/copper_pickaxe_head.json"
+        ]
+      },
+      "path": "~/Tools/Pickaxes"
+    },
+    {
+      "name": "WoodenFrame",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spcore/models/item/wooden_frame.json",
+          "src/main/java/net/mcreator/survivalpluscore/item/WoodenFrameItem.java"
+        ]
+      },
+      "path": "~/Misc."
+    },
+    {
+      "name": "WoodenFrameCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_frame_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/recipes/wooden_frame.json"
+        ]
+      },
+      "path": "~/Misc."
+    },
+    {
+      "name": "GroundedRock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grounded_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/worldgen/configured_feature/grounded_rock.json",
+          "src/main/resources/data/spcore/loot_tables/blocks/grounded_rock.json",
+          "src/main/java/net/mcreator/survivalpluscore/block/GroundedRockBlock.java",
+          "src/main/resources/data/spcore/neoforge/biome_modifier/grounded_rock_biome_modifier.json",
+          "src/main/resources/data/spcore/worldgen/placed_feature/grounded_rock.json",
+          "src/main/resources/assets/spcore/blockstates/grounded_rock.json",
+          "src/main/resources/assets/spcore/models/block/grounded_rock.json",
+          "src/main/resources/assets/spcore/models/item/grounded_rock.json"
+        ]
+      },
+      "path": "~/Blocks/Early Survival/GroundedRock"
+    },
+    {
+      "name": "PickUpRock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pick_up_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/PickUpRockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Early Survival/GroundedRock"
+    },
+    {
+      "name": "GroundedRockBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grounded_rock_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/GroundedRockBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Early Survival/GroundedRock"
+    },
+    {
+      "name": "PunchStoneWithHand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punch_stone_with_hand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalpluscore/procedures/PunchStoneWithHandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Override Scripts/Punch Stone Get Rock"
+    },
+    {
+      "name": "PSGRLoot2",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psgr_loot_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spcore/loot_tables/psgr_loot_2.json"
+        ]
+      },
+      "path": "~/Override Scripts/Punch Stone Get Rock"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:mod:knives": [
+      "CUSTOM:IronKnife",
+      "CUSTOM:GoldenKnife",
+      "CUSTOM:FlintBlade"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:EnchantedBlockOfVerterium",
+      "~CUSTOM:BlockOfVerterium",
+      "~CUSTOM:VerteriumOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GroundedRock",
+      "~CUSTOM:TerracottaWrappedCopper",
+      "~CUSTOM:FusionStationFrame",
+      "~CUSTOM:FusionStation",
+      "~CUSTOM:EnchantedBlockOfVerterium",
+      "~CUSTOM:BlockOfVerterium",
+      "~CUSTOM:VerteriumOre"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:CampfirePlace"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:PrimitiveTool",
+      "~CUSTOM:FlintBlade",
+      "~CUSTOM:SmithingHammer"
+    ],
+    "ITEMS:minecraft:axes": [
+      "CUSTOM:PrimitiveTool"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:VerteriumSword"
+    ],
+    "ITEMS:mod:gears": [
+      "CUSTOM:IronGear",
+      "CUSTOM:CopperGear",
+      "CUSTOM:GoldenGear"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.spcore.flint_blade": "Flint Blade",
+      "item.survivalpluscore.flint_blade": "Flint Blade",
+      "block.survivalpluscore.fusion_station": "Fusion Station",
+      "block.survivalpluscore.enchanted_block_of_verterium": "Enchanted Block Of Verterium",
+      "block.spcore.block_of_verterium": "Block Of Verterium",
+      "item.survivalpluscore.verterium_ingot": "Verterium Ingot",
+      "item.spcore.primitive_tool": "Primitive Tool",
+      "item.survivalpluscore.iron_gear": "Iron Gear",
+      "item.spcore.gear_frame": "Gear Frame",
+      "item.spcore.verterium_crystal": "Verterium Crystal",
+      "gui.survivalpluscore.fusion_station_gui.FusionStation": "hello",
+      "item.survivalpluscore.coal_dust": "Coal Dust",
+      "gui.survivalpluscore.fusion_station_gui.label_fusion_station": "Fusion Station",
+      "item.spcore.copper_gear": "Copper Gear",
+      "item.survivalpluscore.iron_knife": "Iron Knife",
+      "item.survivalpluscore.copper_gear": "Copper Gear",
+      "block.survivalpluscore.campfire_place": "Campfire Place",
+      "item.survivalpluscore.fiber_rope": "Fiber Rope",
+      "item.spcore.copper_pickaxe_head": "Copper Pickaxe Head",
+      "item.survivalpluscore.verterium_crystal": "Verterium Crystal",
+      "item.survivalpluscore.coal_shard": "Coal Shard",
+      "item.spcore.verterium_ingot": "Verterium Ingot",
+      "item.spcore.wooden_shaft": "Wooden Shaft",
+      "item.spcore.golden_knife": "Golden Knife",
+      "item.survivalpluscore.wooden_frame": "Wooden Frame",
+      "gui.spcore.fusion_station_gui.label_fusion_station": "Fusion Station",
+      "item.survivalpluscore.verterium_sword": "Verterium Sword",
+      "block.survivalpluscore.verterium_ore": "Verterium Ore",
+      "item.spcore.rock": "Rock",
+      "item.survivalpluscore.smithing_hammer": "Smithing Hammer",
+      "item.spcore.fiber_rope": "Fiber Rope",
+      "item.spcore.plant_fibers": "Plant Fibers",
+      "block.spcore.grounded_rock": "Grounded Rock",
+      "item.survivalpluscore.copper_pickaxe_head": "Copper Pickaxe Head",
+      "item.survivalpluscore.copper_dust": "Copper Dust",
+      "block.spcore.campfire_place": "Campfire Place",
+      "block.spcore.wrapped_copper": "Wrapped Copper",
+      "item.spcore.iron_knife": "Iron Knife",
+      "block.survivalpluscore.terracotta_wrapped_copper": "Terracotta Wrapped Copper",
+      "block.survivalpluscore.block_of_verterium": "Block Of Verterium",
+      "item.survivalpluscore.plant_fibers": "Plant Fibers",
+      "item.survivalpluscore.rock": "Rock",
+      "block.spcore.terracotta_wrapped_copper": "Terracotta Wrapped Copper",
+      "item.spcore.copper_nugget": "Copper Nugget",
+      "item.spcore.coal_shard": "Coal Shard",
+      "item.survivalpluscore.copper_nugget": "Copper Nugget",
+      "block.survivalpluscore.fusion_station_frame": "Fusion Station Frame",
+      "item.survivalpluscore.wooden_shaft": "Wooden Shaft",
+      "block.spcore.fusion_station": "Fusion Station",
+      "item.survivalpluscore.golden_knife": "Golden Knife",
+      "item.survivalpluscore.primitive_tool": "Primitive Tool",
+      "block.survivalpluscore.wrapped_copper": "Wrapped Copper",
+      "block.spcore.enchanted_block_of_verterium": "Enchanted Block Of Verterium",
+      "block.survivalpluscore.grounded_rock": "Grounded Rock",
+      "item.spcore.iron_gear": "Iron Gear",
+      "block.spcore.verterium_ore": "Verterium Ore",
+      "item.spcore.golden_gear": "Golden Gear",
+      "item.survivalpluscore.golden_gear": "Golden Gear",
+      "item.spcore.smithing_hammer": "Smithing Hammer",
+      "item.spcore.coal_dust": "Coal Dust",
+      "item.spcore.copper_dust": "Copper Dust",
+      "item.spcore.verterium_sword": "Verterium Sword",
+      "item.spcore.wooden_frame": "Wooden Frame",
+      "block.spcore.fusion_station_frame": "Fusion Station Frame",
+      "item.survivalpluscore.gear_frame": "Gear Frame"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Ores",
+            "children": [
+              {
+                "name": "Verterium",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Stations",
+            "children": [
+              {
+                "name": "Fusion Station",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Functional",
+            "children": [
+              {
+                "name": "Fusion Station Frame",
+                "children": []
+              },
+              {
+                "name": "Campfire Place",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Early Survival",
+            "children": [
+              {
+                "name": "GroundedRock",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Weapons",
+        "children": [
+          {
+            "name": "Verterium Sword",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Misc.",
+        "children": [
+          {
+            "name": "Smithing Hammer",
+            "children": []
+          },
+          {
+            "name": "Gears",
+            "children": []
+          },
+          {
+            "name": "Nuggets",
+            "children": []
+          },
+          {
+            "name": "Custom Drops",
+            "children": [
+              {
+                "name": "Punch Stone Get Rock",
+                "children": []
+              },
+              {
+                "name": "Cut Grass",
+                "children": []
+              },
+              {
+                "name": "No Easy Coal",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Early Survival",
+            "children": [
+              {
+                "name": "Wooden Shaft",
+                "children": []
+              },
+              {
+                "name": "Wrapped Copper",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Knives",
+            "children": []
+          },
+          {
+            "name": "Flint Blade",
+            "children": []
+          },
+          {
+            "name": "Early Survival",
+            "children": [
+              {
+                "name": "Primitive Tool",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Pickaxes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Override Scripts",
+        "children": [
+          {
+            "name": "Punch Stone Get Rock",
+            "children": []
+          },
+          {
+            "name": "Cut Grass",
+            "children": []
+          },
+          {
+            "name": "Break Wood Need Tool",
+            "children": []
+          },
+          {
+            "name": "No Easy Coal",
+            "children": []
+          },
+          {
+            "name": "Get Copper",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Vanilla Crafting Overrides",
+        "children": [
+          {
+            "name": "Logs to Oak",
+            "children": []
+          },
+          {
+            "name": "Simple Torches",
+            "children": []
+          },
+          {
+            "name": "Advanced Furnace",
+            "children": []
+          },
+          {
+            "name": "Disable Tools",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "spcore",
+    "modName": "SurvivalPlusCore",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.survivalpluscore"
+  },
+  "mcreatorVersion": 202400232117
+}

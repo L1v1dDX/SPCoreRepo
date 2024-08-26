@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CoalShard"
+      },
+      {
+        "value": "CUSTOM:CoalShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CoalShard"
+      },
+      {
+        "value": "CUSTOM:CoalDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.COAL#0"
+    },
+    "name": "craft_coal",
+    "namespace": "mod"
+  }
+}

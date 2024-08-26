@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "spcore:enchanted_block_of_verterium",
+    "spcore:block_of_verterium",
+    "spcore:verterium_ore"
+  ]
+}

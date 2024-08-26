@@ -1,0 +1,7 @@
+{
+  "parent": "spcore:custom/primitivetool",
+  "textures": {
+    "0": "spcore:block/primitivetooltexture",
+    "particle": "spcore:item/primitive_tool"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "spcore:block/fusion_station"
+    },
+    "facing=east": {
+      "model": "spcore:block/fusion_station",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "spcore:block/fusion_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "spcore:block/fusion_station",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "spcore:block/fusion_station",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "spcore:block/fusion_station",
+      "x": 90
+    }
+  }
+}

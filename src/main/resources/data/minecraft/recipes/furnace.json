@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobblestone"
+    },
+    "b": {
+      "item": "spcore:copper_gear"
+    },
+    "c": {
+      "item": "spcore:coal_dust"
+    }
+  },
+  "result": {
+    "id": "minecraft:furnace",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "spcore:blocks/grounded_rock",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spcore:grounded_rock"
+        }
+      ]
+    }
+  ]
+}

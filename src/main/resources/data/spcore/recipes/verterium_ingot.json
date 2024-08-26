@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "item": "spcore:block_of_verterium"
+  },
+  "addition": {
+    "item": "spcore:smithing_hammer"
+  },
+  "result": {
+    "id": "spcore:verterium_ingot"
+  }
+}

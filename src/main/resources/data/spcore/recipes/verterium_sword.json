@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "spcore:verterium_crystal"
+    },
+    "b": {
+      "item": "spcore:verterium_ingot"
+    },
+    "c": {
+      "item": "minecraft:iron_sword"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "spcore:verterium_sword",
+    "count": 1
+  }
+}
