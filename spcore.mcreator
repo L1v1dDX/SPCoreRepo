@@ -17,7 +17,7 @@
           "src/main/resources/assets/spcore/models/block/verterium_ore.json"
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "VerteriumCrystal",
@@ -31,7 +31,7 @@
           "src/main/java/net/mcreator/survivalpluscore/item/VerteriumCrystalItem.java"
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "VerteriumOreLoot",
@@ -44,7 +44,7 @@
           "src/main/resources/data/spcore/loot_tables/blocks/verterium_ore.json"
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "VerteriumOreBlockDestroyedByPlayer",
@@ -83,7 +83,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "BlockOfVerterium",
@@ -100,7 +100,7 @@
           "src/main/resources/assets/spcore/models/block/block_of_verterium.json"
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "EnchantedBlockOfVerterium",
@@ -116,7 +116,7 @@
           "src/main/resources/assets/spcore/models/item/enchanted_block_of_verterium.json"
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "BlockOfVerteriumOnBlockRightClicked",
@@ -151,7 +151,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "EnchantedBlockOfVerteriumBlockDestroyedByPlayer",
@@ -190,7 +190,7 @@
           }
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "CraftBlockOfVerterium",
@@ -203,7 +203,7 @@
           "src/main/resources/data/spcore/recipes/block_of_verterium.json"
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "VerteriumSwordItemIsCraftedsmelted",
@@ -277,7 +277,7 @@
           "src/main/java/net/mcreator/survivalpluscore/item/VerteriumIngotItem.java"
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "CraftVerteriumIngot",
@@ -290,7 +290,7 @@
           "src/main/resources/data/spcore/recipes/verterium_ingot.json"
         ]
       },
-      "path": "~/Blocks/Ores/Verterium"
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "CraftVerteriumSword",
@@ -1714,12 +1714,7 @@
         "children": [
           {
             "name": "Ores",
-            "children": [
-              {
-                "name": "Verterium",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "name": "Stations",
